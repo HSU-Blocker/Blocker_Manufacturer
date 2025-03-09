@@ -30,10 +30,10 @@
   }
   
   .links a:hover {
-    color: #1DB954;
+    color: #44d62c;
   }
   
   .active {
-    color: #1DB954 !important;
-    border-bottom: 2px solid #1DB954;
+    color: #44d62c !important;
+    border-bottom: 2px solid #44d62c;
   }
