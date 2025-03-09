@@ -20,6 +20,7 @@
     - IDE
       - IntelliJ IDEA
      
+![image](https://github.com/user-attachments/assets/a15056ba-aea9-475b-99f9-9eca2aabb3a8)
 
-    ![image](https://github.com/user-attachments/assets/bcec9139-83b3-4665-8020-2875b7b180c6)
+   
 
