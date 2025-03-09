@@ -76,6 +76,28 @@
     border: 1px solid #ff4444;
     border-radius: 4px;
   }
+
+  /* 입력 필드 스타일 */
+.inputContainer {
+  margin: 2rem 0;
+  width: 80%;
+  max-width: 500px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 12px 20px;
+  border: 2px solid #1DB954;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  background: transparent;
+  color: white;
+  outline: none;
+}
+
+.inputField::placeholder {
+  color: #888;
+}
   
   @media (max-width: 768px) {
     .title {

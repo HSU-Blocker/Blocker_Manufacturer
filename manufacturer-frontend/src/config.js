@@ -4,6 +4,8 @@ export const API_CONFIG = {
     ENDPOINTS: {
       START: '/start',
       INFO: '/info',
-      PREVIEW: '/preview'
+      PREVIEW: '/preview',
+      UPLOAD: '/upload',
+      TRANSACTION: '/transaction'
     }
   };
