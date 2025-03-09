@@ -1,0 +1,83 @@
+/* components/MainContent/MainContent.module.css */
+.container {
+    text-align: center;
+    padding: 8rem 2rem 4rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%);
+    color: white;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #888;
+  }
+  
+  .title {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    line-height: 1.2;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+  }
+  
+  .buttonPrimary {
+    background: #1DB954;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .buttonSecondary {
+    background: #333;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  
+  .buttonOutline {
+    background: transparent;
+    color: #1DB954;
+    padding: 1rem 2rem;
+    border: 2px solid #1DB954;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  
+  .platforms {
+    margin-top: 2rem;
+    color: #666;
+  }
+  
+  .platforms h3 {
+    color: #fff;
+    margin: 0.5rem 0;
+    font-size: 1.8rem;
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 2rem;
+    }
+    
+    .buttonGroup {
+      flex-direction: column;
+      width: 80%;
+    }
+  }
