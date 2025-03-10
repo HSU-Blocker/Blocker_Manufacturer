@@ -15,6 +15,8 @@
   - Color
     - blue: #0046ff
     - green: #44d62c
+   
+- Back End : Flask
 
 - Back End : Spring boot
     - IDE
